@@ -4,7 +4,7 @@ This project is intended to form the boilerplate for standing up a stable, respo
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This project integrates a number of key components:
 - Redux
-- Linting via ES Lint
+- Linting via ES Lint and Prettier
 - Routing via React Router Dom v6
 - Pre-built components via Material UI v5
 - Error fallback
