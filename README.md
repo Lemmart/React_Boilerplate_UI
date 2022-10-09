@@ -1,7 +1,13 @@
 # Example UI
 
-This project is intended to form the boilerplate for standing up stable, responsive, and well-structured UI projects. 
+This project is intended to form the boilerplate for standing up a stable, responsive, and well-structured UI project. 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project integrates a number of key components:
+- Redux
+- Linting via ES Lint
+- Routing via React Router Dom v6
+- Pre-built components via Material UI v5
+- Error fallback
 
 ## Getting Started
 ### Install dependencies
