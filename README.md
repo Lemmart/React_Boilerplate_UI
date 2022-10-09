@@ -77,43 +77,58 @@ Your app is ready to be deployed!
 ## Project Structure
 ```angular2html
 .
-├── App.css
-├── App.js
-├── App.test.js
-├── Routing.js
-├── amplifyStyles.css
-├── aws-exports.js
-├── components
-│   ├── ErrorBoundary.js
-│   ├── login
-│   │   ├── Footer.js
-│   │   ├── Header.js
-│   │   ├── SignInFooter.js
-│   │   ├── SignInHeader.js
-│   │   └── index.js
-│   └── responsiveAppBar
-│       └── index.js
-├── config.js
-├── index.css
-├── index.js
-├── logo.svg
-├── pages
-│   ├── Account.js
-│   ├── Dashboard.js
-│   ├── Home.js
-│   ├── New.js
-│   └── Profile.js
-├── redux
-│   ├── action-types
-│   │   └── exampleTypes.js
-│   ├── actions
-│   │   └── exampleActions.js
-│   ├── reducers
-│   │   ├── exampleReducer.js
-│   │   └── index.js
-│   └── store.js
-├── reportWebVitals.js
-└── setupTests.js
+├── node_modules
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   ├── robots.txt
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── Routing.js
+│   ├── amplifyStyles.css
+│   ├── aws-exports.js
+│   ├── components
+│   │   ├── ErrorBoundary.js
+│   │   ├── login
+│   │   │   ├── Footer.js
+│   │   │   ├── Header.js
+│   │   │   ├── SignInFooter.js
+│   │   │   ├── SignInHeader.js
+│   │   │   └── index.js
+│   │   └── responsiveAppBar
+│   │       └── index.js
+│   ├── config.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── pages
+│   │   ├── Account.js
+│   │   ├── Dashboard.js
+│   │   ├── Home.js
+│   │   ├── New.js
+│   │   └── Profile.js
+│   ├── redux
+│   │   ├── action-types
+│   │   │   └── exampleTypes.js
+│   │   ├── actions
+│   │   │   └── exampleActions.js
+│   │   ├── reducers
+│   │   │   ├── exampleReducer.js
+│   │   │   └── index.js
+│   │   └── store.js
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── .eslintrc.js
+├── .gitignore
+├── Makefile
+├── package.json
+├── package-lock.json
+└── README.md
 ```
 
 ## Ejecting Create React App
